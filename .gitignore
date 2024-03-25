@@ -1,0 +1,4 @@
+.gitignore
+vivino_db_diagram_horizontal.png
+vivino.db
+/venv
