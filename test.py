@@ -6,7 +6,7 @@ conn = sqlite3.connect(r'vivino.db')
 cur = conn.cursor()
 
 cur.execute("""
-SELECT * FROM grapes;
+SELECT COUNT(DISTINCT group_name) FROM keywords_wine;
 """)
 
 print(cur.fetchall())
